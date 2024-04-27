@@ -1,0 +1,60 @@
+.authentication-page{
+
+    padding-top: 18vh;
+}
+
+.auth-component{
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    /* margin-top: 10vh; */
+    /* border: 1px solid #757474; */
+    padding: 3vh 1.5vw;
+    border-radius: 0.7rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.auth-component h3{
+    color: #76acd7;
+    margin-bottom: 3vh;
+}
+
+.auth-component input{
+
+    outline: none;
+}
+
+
+.auth-component label{
+
+    color: #426078;
+}
+
+.profilePicDiv{
+    text-align: left;
+
+}
+
+.profilePicDiv label{
+    text-align: left;
+}
+
+.auth-component button{
+    min-width: 35%;
+
+}
+
+.auth-component p{
+
+    margin: 0;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #353738c5;
+
+}
+
+.auth-component p span{
+
+    color: #76acd7;
+    cursor: pointer;
+}

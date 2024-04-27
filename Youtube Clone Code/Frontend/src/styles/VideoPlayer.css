@@ -1,0 +1,263 @@
+.videoPlayer-page{
+    margin-top: 12vh;
+    padding: 2vh 2vw;
+    display: flex;
+}
+
+
+.videoplayer-video{
+
+    width: 55vw !important;
+    height: 65vh !important;
+    background-color: rgb(16, 17, 17);
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+
+.video-controls{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.video-control-icons{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: rgb(40, 68, 82);
+}
+.liked-icon{
+    color: rgb(239, 66, 66);
+}
+.video-controls p{
+    font-size: 0.7rem;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.video-controls span{
+    display: flex;
+    margin-left: 25vw;
+    gap: 20px;
+}
+
+.video-controls span p{
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.videoPlayer-data{
+
+    width: 55vw;
+}
+.videoPlayer-data h4{
+
+    font-size: 1.3rem;
+    color: rgb(57, 69, 77);
+    font-family: 'Poppins', sans-serif;
+}
+.videoPlayer-data p{
+    font-size: 0.85rem;
+    color: rgb(57, 69, 77);
+
+}
+
+.videoOwner-data{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 8vh;
+    align-items: center;
+}
+
+.videoOwner-data img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+
+.videoOwner-data h5{
+    margin: 0;
+    color: #56595b;
+    cursor: pointer;
+}
+
+
+.videoOwner-data .owner-follow-btn{
+    height: 40px;
+    padding: 5px 30px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    border: 1.5px solid #545d61;
+    border-radius: 2rem;
+    font-weight: 500;
+    color: #545d61;
+    margin-left: 20px;
+}
+
+.videoOwner-data .owner-following-btn{
+    height: 40px;
+    padding: 5px 30px;
+    font-size: 0.9rem;
+    background-color: #545d61;
+    border: 1.5px solid #545d61;
+    border-radius: 2rem;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+}   
+
+
+/* comments */
+
+.comments-container{
+
+    margin-bottom: 10vh;
+}
+
+.comments-container h4{
+
+    color: #545d61;
+}
+
+.comments-body{
+    margin-left: 1vw;
+    width: 50vw;
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+.comment{
+
+    display: flex;
+}
+
+.comment span{
+    text-align: center;
+    width: 100%;
+}
+
+.comment span h5{
+
+    text-align: left;
+    font-size: 1rem;
+    margin: 0;
+    color: #676c6e;
+}
+
+.comment span p{
+    text-align: left;
+    font-size: 0.8rem;
+    width: 90%;
+    color: #7d8a8f;
+}
+
+.comment span .comment-like-icon{
+    color: #6e7f86;
+    margin-top: 10px;
+}
+.comment span .liked-icon{
+    color: #ef4f4f;
+
+}
+.comment span .comment-likes-count{
+    text-align: center;
+    margin: 0;
+    font-size: 0.6rem;
+}
+
+.add-comment{
+    margin-left: 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.add-comment input{
+    width: 30vw;
+    height: 40px;
+    font-size: 0.9rem;
+    padding-left: 10px;
+    border-radius: 2rem 0 0 2rem;
+    border: 1px solid #9a9fa2;
+    margin: 0;
+}
+.add-comment input:focus{
+    outline: none;
+}
+.add-comment button{
+    height: 40px;
+    border-radius: 0rem 2rem 2rem 0rem;
+    border: 1px solid #9a9fa2;
+    padding:0 20px ;
+    background-color: #2d6991a0;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+.related-videos-container{
+    width: 37vw !important;
+    margin-left: 3vw;
+}
+
+.related-videos-container h4{
+    color: #56595b;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.related-videos{
+
+    margin-left: 1vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.related-video{
+    display: flex;
+    cursor: pointer;
+}
+.related-video-thumbnail-image{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 0.4rem;
+}
+.related-video-data{
+
+    width: 20vw;
+    margin-left: 1.5vw;
+}
+.related-video-data h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.related-video-data p{
+
+    font-size: 0.7rem;
+    margin: 0;
+    color: #7d8a8f;
+}
+.related-video-data h6{
+    font-size: 0.8rem;
+    color: #a6aeb1;
+    margin: 0;
+    margin-top: 6px;
+}
+.related-video-data span{
+    display: flex;
+    gap: 20px;
+}
+.related-video-data span p{
+    color: #6e7f86;
+    
+}

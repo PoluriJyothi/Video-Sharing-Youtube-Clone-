@@ -1,0 +1,89 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    padding: 0 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: fixed;
+    top: 0vh;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.navbar h3{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    color: #2b7ec2b8;
+    cursor: pointer;
+}
+.nav-content{
+
+    display: flex;
+}
+
+.nav-content .searchbar{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+.nav-content .searchbar input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    border: 1.5px solid #4f565929;
+    background-color: #e7ecf009;
+}
+.nav-content .searchbar input:focus{
+
+    border: 1.5px solid #738ca07d;
+    outline: none;
+}
+
+.nav-content .searchbar .serachIcon{
+    position: relative;
+    left: -2rem;
+    font-size: 1.2rem;
+    color: rgb(121, 141, 141);
+    cursor: pointer;
+}
+
+.nav-content button{
+    padding: 0 20px;
+    border-radius: 0.5rem;
+    background-color: #ffffff3e;
+    border: 1.5px solid #899fb1;
+    color: #8399ac;
+    font-weight: 500;
+}
+.nav-content button:hover{
+    background-color: #899fb1;
+    border: 1.5px solid #899fb1;
+    color: #ffffff;
+}
+
+.nav-content .nav-options{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-options-icon{
+    font-size: 1.8rem;
+    color: #47494baf;
+    cursor: pointer;
+}
+.nav-options-icon:hover{
+    color: #3e4042e6;   
+}
+
+.nav-content .nav-profilePic{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #8399ac;
+    cursor: pointer;
+}
